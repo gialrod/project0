@@ -6,3 +6,26 @@ h1 {
 h3 {
     color: darkblue;
 }
+
+div {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+th {
+	background-color: lightgray;
+}
