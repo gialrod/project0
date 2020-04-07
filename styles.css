@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 h1 {
     color: blue;
     text-align: center;
@@ -29,5 +33,5 @@ th, td {
 }
 
 th {
-	background-color: lightblue;
+	background-color: lightgreen;
 }
