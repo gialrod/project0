@@ -35,3 +35,15 @@ th, td {
 th {
 	background-color: lightgreen;
 }
+
+#titles {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+.links {
+	font-weight: bold;
+	font-style: italic;
+}
+
+
