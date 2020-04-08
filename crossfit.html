@@ -3,20 +3,34 @@
     <head>
         <title>Gianni's Hobbies!</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		
+		<style>
+            .row > div {
+                padding: 20px;
+                background-color: lightblue;
+                border: 2px solid blue;
+            }
+        </style>
     </head>
     <body>
         <h1>Crossfit</h1>
 		<img src="img-crossfit.jpg" width="300px" alt="crossfit" class="rounded mx-auto d-block">
 		
 		<h4 class="alert alert-primary" role="alert">My favorite exercices are:</h4>
-		<ul class="list-group">
-            <li class="list-group-item">Burpees</li>
-            <li class="list-group-item">Double Unders</li>
-            <li class="list-group-item">SitUps</li>
-            <li class="list-group-item">MusclesUps</li>
-			<li class="list-group-item">Planks</li>
-        </ul>
+		
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-3">
+                    Burpees
+                </div>
+                <div class="col-6">
+                    Double Unders
+                </div>
+                <div class="col-3">
+                    SitUps
+                </div>
+            </div>
+        </div>
 		
 		<form action="index.html">
 			<input type="submit" value="Return" />
