@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h2,h4 {
     color: darkblue;
 }
 
@@ -46,10 +46,14 @@ th {
 	font-style: italic;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+@media (min-width: 500px) {
+                h3::before {
+                    content: "I play as midfielder. I love to use the number 10 in my shirt";
+    }
 }
 
+@media (max-width: 499px) {
+                h3::before {
+                    content: "I play as midfielder.";
+    }
+}
