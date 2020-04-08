@@ -36,6 +36,10 @@ th {
 	background-color: lightgreen;
 }
 
+li {
+	margin-left: 40%;
+}
+
 #titles {
 	font-family: "Times New Roman", Times, serif;
 	text-align: center;
@@ -44,6 +48,13 @@ th {
 .links {
 	font-weight: bold;
 	font-style: italic;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media (min-width: 1200px) {
